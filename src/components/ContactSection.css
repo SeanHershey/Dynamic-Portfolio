@@ -12,10 +12,11 @@
     margin-bottom: 50px;
 }
 
-.contact-container > p {
+.contact-container > a {
     color: #ffffff;
     font-size: 30px;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 

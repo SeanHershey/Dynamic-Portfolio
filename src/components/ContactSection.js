@@ -7,9 +7,11 @@ function ContactSection() {
     return (
         <div className='contact-container'>
             <h1>Contact</h1>
-            <p>sean.p.hershey@gmail.com </p>
-            <p>github.com/SeanHershey</p>
-            <p>linkedin.com/in/SeanHershey</p>
+            <a href = "mailto:sean.p.hershey@gmail.com"> <p>sean.p.hershey@gmail.com</p></a>
+            <br/>
+            <a href = "https://github.com/SeanHershey"> <p>github.com/SeanHershey</p></a>
+            <br/>
+            <a href = "https://www.linkedin.com/in/SeanHershey/"> <p>linkedin.com/in/SeanHershey</p></a>
         </div>
     )
 }
