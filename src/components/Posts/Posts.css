@@ -1,0 +1,9 @@
+body {
+	background-color: #101010;
+}
+.posts-container {
+    margin-top: 0px;
+	display: block;
+	align-items: grid;
+    position: relative;
+}

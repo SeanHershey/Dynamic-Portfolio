@@ -1,0 +1,43 @@
+.post-container {
+	display: flex;
+	flex-direction: column;
+	padding: 3%;
+	margin: 0 10%;
+}
+
+.post-content {
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+}
+
+.post-content > p {
+    margin: 0 2%;
+}
+
+.heading {
+    color: #ffffff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+.image {
+	width: 350px;
+	height: 350px;
+}
+
+@media screen and (max-width: 960px) {
+    .post-content {
+        flex-direction: column;
+    }
+
+    .post-content > p {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+
+    .image {
+        object-fit: cover;
+    }
+}

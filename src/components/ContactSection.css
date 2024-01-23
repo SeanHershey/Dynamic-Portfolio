@@ -1,0 +1,32 @@
+.contact-container {
+    background-color: #101010;
+    text-align: center;
+    margin-top: 10vh;
+    height: 100%;
+    overflow: hidden;
+}
+
+.contact-container > h1 {
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-container > p {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .contact-container > h1 {
+        font-size: 30px;
+    }
+
+    .contact-container > p {
+        color: #ffffff;
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}

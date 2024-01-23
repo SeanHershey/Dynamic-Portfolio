@@ -1,0 +1,24 @@
+body {
+	background-color: #101010;
+}
+
+.photos-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 60%);
+}
+
+
+@media screen and (max-width: 960px) {
+    .photos-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(20, 60%);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .photos-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(30, 30%);
+    }
+}

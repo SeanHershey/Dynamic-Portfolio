@@ -1,0 +1,17 @@
+.projects-container {
+    background-color: #101010;
+    margin-top: 10vh;
+}
+
+.projects-container > h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .projects-container > h1 {
+        font-size: 30px;
+    }
+}

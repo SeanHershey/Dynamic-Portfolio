@@ -1,0 +1,17 @@
+.gallery-container {
+    margin-top: 10vh;
+    background-color: #101010;
+}
+
+.gallery-container > h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .gallery-container > h1 {
+        font-size: 30px;
+    }
+}
