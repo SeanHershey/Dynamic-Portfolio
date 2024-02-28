@@ -1,12 +1,13 @@
-import '../../App.css'
 import React from 'react';
 import ProjectsSection from '../ProjectsSection';
+import '../../App.css'
+
 
 function Projects() {
     return (
-        <>
-            <ProjectsSection />
-        </>
+    <>
+        <ProjectsSection/>
+    </>
     );
 }
 

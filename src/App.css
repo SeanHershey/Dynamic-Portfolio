@@ -1,6 +1,18 @@
 * {
+    /* Font */
+    font-family: "Fragment Mono";
+
+    /* Margins */
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Fragment Mono";
+    
+    /* Hide scrollbar (IE, Edge, Firefox) */
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+/* Hide scrollbar (Chrome, Safari, Opera) */
+-webkit-scrollbar {
+    display: none;
 }

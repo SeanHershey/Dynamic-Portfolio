@@ -1,12 +1,13 @@
-import '../../App.css'
 import React from 'react';
-import ProfileSection from '../ProfileSection';
+import HomeSection from '../HomeSection';
+import '../../App.css'
+
 
 function Home() {
     return (
-        <>
-            <ProfileSection />
-        </>
+    <>
+        <HomeSection/>
+    </>
     );
 }
 

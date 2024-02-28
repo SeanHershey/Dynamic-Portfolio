@@ -1,6 +1,7 @@
 import React from "react";
-import "./Photos.css";
 import Photo from "./Photo";
+import "./Photos.css";
+
 
 const Photos = () => {
     const galleryPhotos = [
@@ -30,11 +31,12 @@ const Photos = () => {
         },
     ];
     return (
-        <div className="photos-container">
+    <div className="photos-container">
         {galleryPhotos.map((photo, index) => (
             <Photo key={index} index={index} photo={photo} />
         ))}
-        </div>
+    </div>
     );
-    };
-    export default Photos;
+};
+
+export default Photos;

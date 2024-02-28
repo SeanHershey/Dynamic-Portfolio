@@ -58,12 +58,14 @@ const Posts = () => {
             "https://media.geeksforgeeks.org/img-practice/banner/cp-maths-java-thumbnail.png",
         },
     ];
+    
     return (
-        <div className="posts-container">
+    <div className="posts-container">
         {blogPosts.map((post, index) => (
-            <Post key={index} index={index} post={post} />
+            <Post key={index} index={index} post={post}/>
         ))}
-        </div>
+    </div>
     );
-    };
-    export default Posts;
+};
+
+export default Posts;
