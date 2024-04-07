@@ -11,15 +11,14 @@
     flex-direction: row;
 }
 
-.post-content > p {
+.post-content p {
     margin: 0 2%;
 }
 
 .heading {
     color: #ffffff;
-	text-align: center;
-	display: flex;
 	align-items: center;
+    margin-bottom: 2%;
 }
 
 .image {
@@ -32,12 +31,18 @@
         flex-direction: column;
     }
 
-    .post-content > p {
-        margin-top: 25px;
-        margin-bottom: 50px;
+    .post-content p {
+        margin: 2% 0;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 24px;
     }
 
     .image {
         object-fit: cover;
+        display: block;
+        margin: auto;
     }
 }
