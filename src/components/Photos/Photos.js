@@ -6,28 +6,28 @@ import "./Photos.css";
 const Photos = () => {
     const galleryPhotos = [
         {
-        title: "Project",
-        link: "/projects/a#project",
+        title: "fEMR",
+        link: "/projects",
         imgUrl:
-            "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+            "https://i.ibb.co/LrRBkVt/femr.png",
         },
         {
-        title: "Project",
-        link: "/projects/a#project",
+        title: "Cat and Mouse",
+        link: "/projects",
         imgUrl:
-            "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+            "https://i.ibb.co/3TdGqMk/catandmouse.png",
         },
         {
-        title: "Project",
-        link: "/projects/a#project",
+        title: "Pacman",
+        link: "/projects",
         imgUrl:
-            "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+            "https://i.ibb.co/G3cCjyK/pacman.png",
         },
         {
-        title: "Project",
-        link: "/projects/a#project",
+        title: "Oazo",
+        link: "/projects",
         imgUrl:
-            "https://media.geeksforgeeks.org/img-practice/banner/diving-into-excel-thumbnail.png",
+            "https://i.ibb.co/dfq2rMD/oazo.png",
         },
     ];
     return (
