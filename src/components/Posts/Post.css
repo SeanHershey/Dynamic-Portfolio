@@ -6,13 +6,14 @@
 }
 
 .post-content {
-    color: #ffffff;
     display: flex;
     flex-direction: row;
 }
 
-.post-content p {
-    margin: 0 2%;
+.post-content p, a {
+    color: #ffffff;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 .heading {
