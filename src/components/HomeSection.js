@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "./Button";
-import "../App.css";
+import { Glowbe } from "./Glowbe"
 import "./HomeSection.css";
 
 
@@ -30,6 +30,9 @@ function HomeSection() {
                 <p> 🌺 I'm from Hawaii and live in California</p>
                 <p> 📧 Contact me at sean.p.hershey@gmail.com</p>
             </div>
+        </div>
+        <div className="canvas-container">
+            <Glowbe />
         </div>
     </div>
     );

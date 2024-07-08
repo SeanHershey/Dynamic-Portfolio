@@ -1,0 +1,11 @@
+canvas {
+    margin-top: 10vh;
+    display: inline-block;
+    width: 100Vmin;
+    height: 100Vmin;
+}
+
+.link {
+    margin: 0;
+    padding: 0;
+}

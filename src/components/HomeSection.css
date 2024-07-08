@@ -34,6 +34,7 @@
     color: #ffffff;
     font-size: 16px;
     margin-top: 10px;
+    margin-left: 10px;
     text-align: left;
 }
 
@@ -43,6 +44,13 @@
 
 .home-btns .btn {
     margin: 6px;
+}
+
+.canvas-container {
+    margin-top: 5vh;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);  
 }
 
 @media screen and (max-width: 800px) {

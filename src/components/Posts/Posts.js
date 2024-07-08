@@ -40,6 +40,15 @@ const Posts = () => {
         link: "https://github.com/SeanHershey/DynamicPortfolio",
         },
         {
+        title: "Glowbe",
+        body: `This is a interactive visual showcase of WebGL in react. The points 
+        display a sphere using the golden ratio and PI. The number and scale of 
+        the points depend on the distance the cursor is from the center of the sphere.
+        I created this to get a better understanding of WebGL in react and shaders.`,
+        imgUrl: "https://i.ibb.co/vhttK9G/glwobe.png",
+        link: "https://github.com/SeanHershey/Glowbe",
+        },
+        {
         title: "Stable Diffusion",
         body: `I created a react website to showcase stable diffusion 
         image generation. It utilizes a simple frontend and flask backend.

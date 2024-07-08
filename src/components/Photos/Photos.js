@@ -7,7 +7,7 @@ const Photos = () => {
     const galleryPhotos = [
         {
         title: "fEMR",
-        link: "/projects",
+        link: "/projects#fEMR%20Dynamic%20Translation",
         imgUrl:
             "https://i.ibb.co/LrRBkVt/femr.png",
         },
