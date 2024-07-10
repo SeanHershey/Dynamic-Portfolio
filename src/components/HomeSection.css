@@ -60,12 +60,12 @@
     height: 40Vmin;
 }
 
-
 .itch-frame {
     border-radius: 25px;
     width: 80Vmin;
-    height: 62Vmin;
+    height: 20Vmin;
     margin-bottom: 10vh;
+    border: transparent;
 }
 
 @media screen and (max-width: 800px) {
