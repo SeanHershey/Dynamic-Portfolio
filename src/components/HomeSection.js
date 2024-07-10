@@ -39,7 +39,7 @@ function HomeSection() {
                 <img className='showcase-img' src='https://i.ibb.co/RPWCCw3/femr.gif' alt='femr'></img>
             </div>
         </Link>
-        <iframe className="itch-frame" src="https://itch.io/embed-upload/10661395?color=333333">
+        <iframe className="itch-frame" title="jitterbug" src="https://itch.io/embed-upload/10661395?color=333333">
             <a href="https://seanhershey.itch.io/jitterbug">Play Jitterbug on itch.io</a>
         </iframe>
 
