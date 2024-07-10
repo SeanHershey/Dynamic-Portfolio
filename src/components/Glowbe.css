@@ -1,5 +1,4 @@
 canvas {
-    margin-top: 10vh;
     display: inline-block;
     width: 100Vmin;
     height: 100Vmin;
@@ -8,4 +7,18 @@ canvas {
 .link {
     margin: 0;
     padding: 0;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.label {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 26Vmin);
+    font-size: 80px;
+    color: white;
+    animation: fadeIn 1s;
 }

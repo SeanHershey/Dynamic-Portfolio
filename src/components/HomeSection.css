@@ -13,21 +13,15 @@
 
 .home-container > h2 {
     color: #ffffff;
-    font-size: 35px;
+    font-size: 36px;
     margin-top: 10px;
 }
 
-.home-bullets-wrap {
-    float: left;
-    position: relative;
-    left: 50%;
-}
-
 .home-bullets {
-    margin-top: 32px;
-    float: left;
-    position: relative;
-    left: -50%;
+    text-align: center;
+    width: 500px; 
+    margin: 0 auto;
+    margin-top: 5vh;
 }
 
 .home-bullets > p {
@@ -47,10 +41,31 @@
 }
 
 .canvas-container {
-    margin-top: 5vh;
+    height: 100Vmin;
+}
+
+.canvas {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);  
+    transform: translate(-50%, 0);
+}
+
+.showcase {
+    margin-bottom: 10vh;
+}
+
+.showcase-img {
+    border-radius: 25px;
+    width: 100Vmin;
+    height: 50Vmin;
+}
+
+
+.itch-frame {
+    border-radius: 25px;
+    width: 80Vmin;
+    height: 62Vmin;
+    margin-bottom: 10vh;
 }
 
 @media screen and (max-width: 800px) {
@@ -58,7 +73,20 @@
         font-size: 40px;
         margin-top: 50px;
     }
+
+    .home-container > h2 {
+        font-size: 20px;
+    }
+
     .home-container > p {
         font-size: 20px;
+    }
+
+    .home-bullets {
+        width: 370px;
+    }
+    
+    .home-bullets > p {
+        font-size: 12px;
     }
 }

@@ -1,5 +1,6 @@
 import { useRef } from 'react';
-import "./Glowbe.css";
+import { Link } from 'react-router-dom';
+import './Glowbe.css';
 import React from 'react';
 
 export const Glowbe = () => {
@@ -30,7 +31,7 @@ export const Glowbe = () => {
         canvas.width = Math.min(window.innerHeight, window.innerWidth);
         canvas.height = Math.min(window.innerHeight, window.innerWidth);
         
-        const gl = canvas.getContext("webgl");
+        const gl = canvas.getContext('webgl');
         if (gl == null) return;
 
         // add points on a sphere
@@ -39,7 +40,11 @@ export const Glowbe = () => {
         const goldenRatio = 1 + Math.sqrt(5)/4;
         const angle = Math.PI * 2 * goldenRatio;
         const distance = Math.sqrt(Math.pow(x - canvas.width/2, 2) + Math.pow(y - canvas.width/2, 2));
-        const scale = Math.min(Math.pow(distance / canvas.width, 1/2), 0.7)
+        const ratio = Math.abs(distance / canvas.width) * 1.2;
+        const scale = Math.min(Math.pow(ratio, 2) * (3 - (2 * ratio)) + 0.2, 0.8)
+
+        console.log(scale)
+
         const number = 10000 * scale;
 
         for (let i = 0; i < number; i++) {
@@ -89,7 +94,7 @@ export const Glowbe = () => {
 
         // add points
         gl.bindBuffer(gl.ARRAY_BUFFER, vertex_buffer);
-        var coord = gl.getAttribLocation(shaderProgram, "coordinates");
+        var coord = gl.getAttribLocation(shaderProgram, 'coordinates');
         gl.vertexAttribPointer(coord, 3, gl.FLOAT, false, 0, 0);
         gl.enableVertexAttribArray(coord);
 
@@ -106,6 +111,12 @@ export const Glowbe = () => {
 
     }, [count, ticking, setX, setY, canvasRef, x, y]);
 
-    if (Math.sqrt(Math.pow(x - Math.min(window.innerHeight, window.innerWidth)/2, 2) + Math.pow(y - Math.min(window.innerHeight, window.innerWidth)/2, 2)) > 10) return <canvas id="area" ref={canvasRef} />;
-    else return <a href='/projects#Glowbe' className='link'><canvas id="area" ref={canvasRef} /></a>
+    const linkSize = 30;
+
+    if (Math.sqrt(Math.pow(x - Math.min(window.innerHeight, window.innerWidth)/2, 2) +
+                    Math.pow(y - Math.min(window.innerHeight, window.innerWidth)/2, 2)) > linkSize) return <canvas id='area' ref={canvasRef} />;
+    else return <Link to='/projects#Glowbe'>
+                    <p className='label'>WebGL</p>
+                    <canvas id='area' ref={canvasRef} />
+                </Link>
 };

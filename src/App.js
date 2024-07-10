@@ -10,8 +10,8 @@ import './App.css';
 
 function App() {
     return (
-    <div className="App">
-        <link rel="icon" href="../public/favicon.ico"/>
+    <div className='App'>
+        <link rel='icon' href='../public/favicon.ico'/>
         <Router>
             <Navbar/>
             <Routes>

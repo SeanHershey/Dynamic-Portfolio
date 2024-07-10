@@ -1,7 +1,7 @@
-import React from "react";
-import Photos from "./Photos/Photos"
-import "../App.css";
-import "./GallerySection.css";
+import React from 'react';
+import Photos from './Photos/Photos'
+import '../App.css';
+import './GallerySection.css';
 
 
 function GallerySection() {

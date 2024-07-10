@@ -1,12 +1,12 @@
-import React from "react";
-import Posts from "./Posts/Posts"
-import "../App.css";
-import "./ProjectsSection.css";
+import React from 'react';
+import Posts from './Posts/Posts'
+import '../App.css';
+import './ProjectsSection.css';
 
 
 function ProjectsSection() {
     return (
-    <div className="projects-container">
+    <div className='projects-container'>
         <h1>Projects</h1>
         <Posts/>
     </div>
