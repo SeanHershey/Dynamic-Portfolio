@@ -1,5 +1,6 @@
-# Dynamic Portfolio
+# [Portfolio](https://seanhersheysoftware.com/)
 
-A dynamic website built with React showcasing my software development projects.
+[Portfolio](https://seanhersheysoftware.com/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive React website built with React showcasing my software development projects.
+Dynamic visuals made with WebGL.
