@@ -1,6 +1,7 @@
-# [Portfolio](https://seanhersheysoftware.com/)
+# [Personal Portfolio](https://seanhersheysoftware.com/)
 
-[Portfolio](https://seanhersheysoftware.com/)
+[seanhersheysoftware.com](https://seanhersheysoftware.com/)
 
-A responsive React website built with React showcasing my software development projects.
-Dynamic visuals made with WebGL.
+A website built with React showcasing my software development projects.  
+Focussed on responsive UI and extensible components.  
+Dynamic visuals made with WebGL.  
