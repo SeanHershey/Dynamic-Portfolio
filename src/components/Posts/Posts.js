@@ -15,7 +15,7 @@ const Posts = () => {
         but must be on the same page. Our dynamic translation
         involves the neural networks Argos (OpenNMT) and 
         MarianMT working in the background in python.`,
-        imgUrl: 'https://i.ibb.co/WzV6p57/femr2.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1tqut77BaV7eObpsiYZy1Q1Ft1xH3GrOY',
         link: 'https://github.com/FEMR/femr',
         },
         {
@@ -27,7 +27,7 @@ const Posts = () => {
         and accuracy of structural damage classification with a CNN.
         The main criteria we analyzed our model on is accuracy with a
         secondary goal of computational efficiency`,
-        imgUrl: 'https://i.ibb.co/x3P6Hjk/structural.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1O1APkihqOSfJ-7F1BO67iirUaxB34h9S',
         link: 'https://github.com/SeanHershey/StructuralDamage',
         },
         {
@@ -43,7 +43,7 @@ const Posts = () => {
         Then I ran Postgres SQL with SQLalchemy to the Supabase database (The schema can be found in schema.sql).
         CORS was handled using Starlette.As far as Deployment Supabase handles the database tables and a CRON job 
         that keeps the sites up always accessible and Render hosts the API server and the website.`,
-        imgUrl: 'https://i.ibb.co/hKyHD3R/warehouse.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/12Dvw5raRHd7yv9jdHE53JvvrDycgazrS',
         link: 'https://github.com/SeanHershey/Warehouse',
         },
         {
@@ -52,7 +52,7 @@ const Posts = () => {
         dynamic scaling and showcasing my work over the years. It is deployed with
         Netlify and does not have a backend instead focusing on a refined frontend
         utilizing JavaScript, CSS, and HTML.`,
-        imgUrl: 'https://i.ibb.co/gSDNsKG/dynamic.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1RZo6FOSHoyd9IKz9Z74N9zUSCBt24bi4',
         link: 'https://github.com/SeanHershey/Portfolio',
         },
         {
@@ -61,7 +61,7 @@ const Posts = () => {
         display a sphere using the golden ratio and PI. The number and scale of 
         the points depend on the distance the cursor is from the center of the sphere.
         I created this to get a better understanding of WebGL in react and shaders.`,
-        imgUrl: 'https://i.ibb.co/vhttK9G/glwobe.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1_LJV6mu6bQnNFVQmKN8mBCZwKk3TWlHx',
         link: 'https://github.com/SeanHershey/Glowbe',
         },
         {
@@ -70,7 +70,7 @@ const Posts = () => {
         image generation. It utilizes a simple frontend and flask backend.
         The backend uses Python and Keras to generate a stable diffusion image which
         is based on the users text input.`,
-        imgUrl: 'https://i.ibb.co/LxrPvvf/stable.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1isFtSrItx--RQbPL5_wD1cOHMZwxRbX1',
         },
         {
         title: 'Jitterbug',
@@ -78,7 +78,7 @@ const Posts = () => {
         The game features a simple yet engaging, top-down 2D-pixel art style.
         We draw inspiration from the games Enter the Gungeon and Deathstate: Abyssal Edition, 
         known for their unique visual appeal. Below are some screenshots for reference.`,
-        imgUrl: 'https://i.ibb.co/619Q8Bb/jitterbug.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/14VDgrlUTiqSNz45oAC3RGDMi4wVhfLn_',
         link: 'https://github.com/jlrJames/Jitterbug',
         },
         {
@@ -90,7 +90,7 @@ const Posts = () => {
         contact tech support. This improved my efficiency in my tech support
         role and improved the effectiveness of teachers and administrators
         at my school.`,
-        imgUrl: 'https://i.ibb.co/H4qb0FD/printer.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1U3x1FnknLTw0HPeDN4fYwZNM-_79T0Oy',
         },
         {
         title: 'PACMAN Chip Vulnerability Report',
@@ -101,7 +101,7 @@ const Posts = () => {
         explanation of Pacman. Finally, the third medium contained in this paper is an IEEE 
         compliant technical report research paper. This includes the most detail and is meant for an 
         informed computer scientist in academia.`,
-        imgUrl: 'https://i.ibb.co/G3cCjyK/pacman.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1C9YailDHAZmhG_iOaZSVLNKGJivYY_7P',
         },
         {
         title: 'Cat and Mouse Forest',
@@ -112,7 +112,7 @@ const Posts = () => {
         These mice are spawned by clicking the ground  and slowly destroy the cabins. The game can 
         again be brought to balance by clicking next to a fairy which transforms it into a cat who hunts
         mice.`,
-        imgUrl: 'https://i.ibb.co/3TdGqMk/catandmouse.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1Z9mRB-U-QZtKO-XiOlKbLzhMlVbB-fQI',
         },
         {
         title: 'Spider World',
@@ -123,7 +123,7 @@ const Posts = () => {
         This project taught me the fundamentals of team software 
         development and gave me the understanding to go on to 
         larger team based projects.`,
-        imgUrl: 'https://i.ibb.co/HgVnhFH/spider.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1d1kgo2KNIp4VE-Al3pqgnsuxGnMVg0mz',
         },
         {
         title: 'Huffman',
@@ -134,7 +134,7 @@ const Posts = () => {
         Huffman output file, I appended a header to translate this data with a tree where we know when 
         a ends in 0011010010 by traversing the tree. This project helped me understand the fundamentals
         of computer algorithms and along with proofs gave me a better grounding for more complex algorithms.`,
-        imgUrl: 'https://i.ibb.co/vVpVxq4/huffman.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1eTrVzkHwOp3riotm9ysS77AtJcGXq57k',
         },
         {
         title: 'Concordance with a Hash Table',
@@ -145,7 +145,7 @@ const Posts = () => {
         order. The goal of this project was to understand
         hash tables as apart of learning data structures
         and their unique applications `,
-        imgUrl: 'https://i.ibb.co/5FYJfp9/concordance.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1nQWz4-whN8YfLx5nXNo3Y0kUdeMw5VBM',
         },
         {
         title: 'Two-Colorable Graph',
@@ -157,7 +157,7 @@ const Posts = () => {
         of the fundamental algorithms in computer science, applying
         this traversal helped reinforce the concepts of traversal
         strategies.`,
-        imgUrl: 'https://i.ibb.co/7rxYjmc/twocolorable.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1e7qE-a8U11WC9SrTpl8gZ4gp8qpjKicf',
         },
         {
         title: 'Big Number Calculator',
@@ -169,7 +169,7 @@ const Posts = () => {
         store a variable amount of Integer nodes. This project
         reinforced limitations of datatypes and how object oriented 
         programming can be used to circumnavigate these limitations.`,
-        imgUrl: 'https://i.ibb.co/mcyzrsd/bignumber.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1yphp8u-neE1O8ivdrlxGivp7ZJaR3F4w',
         },
         {
         title: 'Calculator in C and ASM',
@@ -178,7 +178,7 @@ const Posts = () => {
         helped me understand the necessary bridge from higher 
         level programming languages to the machine code that 
         our computers run on.`,
-        imgUrl: 'https://i.ibb.co/yWz1h47/calculator.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1UDpMyhOQfoCBDuq6n7K8BeBYhCtUQFlt',
         },
         {
         title: 'Implementing ecalls in ASM ',
@@ -187,7 +187,7 @@ const Posts = () => {
         line. This project overrides existing ecalls and 
         instead modified register values in order to build 
         other ecalls.`,
-        imgUrl: 'https://i.ibb.co/6vNKZb9/ecalls.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1YPuXxFYrWv6-fpuByIBLWhZtTcvGh2Et',
         },
         {
         title: 'Assembler',
@@ -196,7 +196,7 @@ const Posts = () => {
         can be run by the Emulator project that follows. An example
         of the binary template for 'and' is '000000 s t d 00000 100100',
         with specific registers to be filled out.`,
-        imgUrl: 'https://i.ibb.co/fCwmNFj/assembler.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1TZ22ufaOYM55m9gCrGmMd0WJPZqMXFJD',
         },
         {
         title: 'Emulator',
@@ -205,7 +205,7 @@ const Posts = () => {
         The program keeps track of registers and uses them
         to support 14 instructions. This simulator can emulate
         and run assembly programs with these 14 instructions.`,
-        imgUrl: 'https://i.ibb.co/W5SdZ3m/emulator.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1BY_PQooleG1DHBiNrdaKPxr_wHH_s5i8',
         },
         {
         title: 'Computer Architecture Simulations',
@@ -218,7 +218,7 @@ const Posts = () => {
         instructions into the pipe. Finally, a cache simulation  allowed for testing of size, associativity, and block 
         size effect on cache hit rate. A higher cache hit rate  translates to data that can be looked up easily by the 
         CPU without needing to access disk or slower memory. `,
-        imgUrl: 'https://i.ibb.co/JjGDVdT/simulations.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1qyzlyt7YnCZ1W220LzODIKvdzub4Svte',
         },
         {
         title: 'Over The Wire Bandit CTF',
@@ -228,7 +228,7 @@ const Posts = () => {
         taught me common security flaws in web and shell security
         through the lens of exploiting them but helped me understand
         how to avoid them in my own projects.`,
-        imgUrl: 'https://i.ibb.co/MMRYjY2/otw.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1_WcxVbTevvsf8xeOyzpDGwUwaIRs9MUI',
         },
         {
         title: 'Microcorruption CTF',
@@ -236,7 +236,7 @@ const Posts = () => {
         exercises that deal with bit manipulation and hardware 
         level exploits with how assembly works on proprietary 
         hardware.  `,
-        imgUrl: 'https://i.ibb.co/YfP7WNZ/micro.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1pgAQ3soFXgVub6Lj-YSdd8DpZbOsI1Hu',
         },
         {
         title: 'Symmetric Key Crypto',
@@ -247,7 +247,7 @@ const Posts = () => {
         CBC fixes this by using an initialization vector and
         piping previous encrypted pixels into the next which
         produces noise that hides any information leaking.`,
-        imgUrl: 'https://i.ibb.co/60cWJRF/symmetric.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1SDTDyEzjK_XizUFJZIgTAhdyKmFPeRSf',
         },
         {
         title: 'Public Key Crypto',
@@ -257,7 +257,7 @@ const Posts = () => {
         between two parties. Also, this project demonstrates 
         how a malicious party can exploit this if the value 
         of p, a large prime number, and g are not secure.`,
-        imgUrl: 'https://i.ibb.co/zsZVDR7/public.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1Ms41S7yIp2L-BLPoeGIPUFTgE4uKi9Ce',
         },
         {
         title: 'AWS IAM Course',
@@ -265,14 +265,14 @@ const Posts = () => {
         roles, permissions, and polices to keep a secure server
         on AWS. This course helped me understand amazon's systems
         and some common practices in server security and access.`,
-        imgUrl: 'https://i.ibb.co/7rrRtdG/aws.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1A6s-YbNCqUq1B2Z6MzjzIWIPhKXlD-WK',
         },
         {
         title: 'Wireshark Network Investigation',
         body: `Using Wireshark to investigate a network shows 
         web common security exploits and highlights how network 
         communication can be done securely.`,
-        imgUrl: 'https://i.ibb.co/N3j8pPR/wireshark.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1taEjqAVRDjQ0Qkcs1ighOVSvolBsNKIm',
         },
         {
         title: 'Memory Simulator',
@@ -280,7 +280,7 @@ const Posts = () => {
         chunks to store information in a extensible form,
         while freeing information properly. This helped me learn
         common practices for simple memory management strategies.`,
-        imgUrl: 'https://i.ibb.co/4Ss9StB/memory.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/15zgWivqsfN_JCAOlBnuAaFuIX1x0IXm7',
         },
         {
         title: 'Image Compression',
@@ -289,7 +289,7 @@ const Posts = () => {
         this time implemented in C instead of python. I learned 
         image processing, compression, and decompression throughout 
         this project.`,
-        imgUrl: 'https://i.ibb.co/S37tGgz/compress.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1CcuFPK6rlr1IsXrnn7l9pVs9oyDCEnxl',
         },
         {
         title: 'Terminal File Explorer',
@@ -297,7 +297,7 @@ const Posts = () => {
         in a similar way to the command line with options like cd 
         and ls. During this project I gained a better understanding
         how an operating system navigates folders as files.`,
-        imgUrl: 'https://i.ibb.co/bFfrRDT/files.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1HblfCtp4fEWyzIDIhEtEb8_5Wt-8qerN',
         },
         {
         title: 'Parallel Processing',
@@ -305,7 +305,7 @@ const Posts = () => {
         matrix multiplications with a variable number of parallel 
         processes. I resolved critical section and other timing
         problems.`,
-        imgUrl: 'https://i.ibb.co/nmYSmWL/parallel.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1NA-q1CkisIfqomEqp6xIM-1fdfnrmbMg',
         },
         {
         title: 'Racket and OAZO',
@@ -314,14 +314,14 @@ const Posts = () => {
         language called OAZO. OAZO has its own unique syntax and supports
         anonymous functions, an environment, mutation, and recursion. Shown
         is a game I wrote in OAZO and compiled with Racket as the host language.`,
-        imgUrl: 'https://i.ibb.co/dfq2rMD/oazo.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1n9UUQmAQ6mBzGP4txyn23VtyHUxLzLUb',
         },
         {
         title: 'Everest Data Exploration',
         body: `This report was created with statistical computing with R.
         It explored the everest attempts dataset highlighting the duration
         and outcome of each everest summit attempt over time.`,
-        imgUrl: 'https://i.ibb.co/RQH6LSD/everest.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1YHmpSKSJkqFLn1W_cPPX7M4OlPHFwv9i',
         },
         {
         title: 'Mandelbrot Set',
@@ -329,7 +329,7 @@ const Posts = () => {
         in Processing a visually focused programming language that
         I used to create visual explorations of math concepts and 
         even video games in.`,
-        imgUrl: 'https://i.ibb.co/GVY0Bqh/mandelbrot.png',
+        imgUrl: 'https://lh3.googleusercontent.com/d/1YXAspZrXWrGpI4GJ1D4y85g-wPisT5mo',
         },
     ];
     
