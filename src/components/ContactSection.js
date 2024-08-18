@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer'
 import '../App.css';
 import './ContactSection.css';
 
@@ -20,6 +21,7 @@ function ContactSection() {
         <a href='https://www.linkedin.com/in/SeanHershey/'>
             <p>linkedin.com/in/SeanHershey</p>
         </a>
+        <Footer/>
     </div>
     );
 }

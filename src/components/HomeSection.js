@@ -1,10 +1,17 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useLayoutEffect } from 'react';
+import Resume from './Resume'
+import Footer from './Footer'
+import { HashLink } from 'react-router-hash-link';
 import { Button } from './Button';
-import { Glowbe } from './Glowbe'
+import { Glowbe } from './Glowbe';
 import './HomeSection.css';
 
 function HomeSection() {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     return (
     <div className='home-container'>
         <h1>Sean Hershey</h1>
@@ -31,17 +38,19 @@ function HomeSection() {
         </div>
         <div className='canvas-container'>
             <div className='canvas'>
-                <Glowbe />
+                <Glowbe/>
             </div>
         </div>
-        <Link to='/projects#fEMR%20Dynamic%20Translation'>
-            <div className='showcase'>
-                <img className='showcase-img' src='https://i.ibb.co/RPWCCw3/femr.gif' alt='femr'></img>
-            </div>
-        </Link>
-        <iframe title='jitterbug' className='itch-frame' src='https://itch.io/embed/2769811?dark=true'>
-            <a href='https://seanhershey.itch.io/jitterbug'>Jitterbug</a>
+        <div className='showcase-femr'> 
+            <HashLink to='/projects#femr'>
+                    <img className='showcase-img' src='https://i.ibb.co/RPWCCw3/femr.gif' alt='femr'></img>
+            </HashLink>
+        </div>
+        <iframe title='Jitterbug Game' className='itch-frame' src='https://itch.io/embed/2769811?dark=true'>
+            <a href="https://seanhershey.itch.io/jitterbug">Jitterbug Game</a>
         </iframe>
+        <Resume/>
+        <Footer/>
     </div>
     );
 }

@@ -17,6 +17,7 @@ const Posts = () => {
         MarianMT working in the background in python.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1tqut77BaV7eObpsiYZy1Q1Ft1xH3GrOY',
         link: 'https://github.com/FEMR/femr',
+        id: 'femr',
         },
         {
         title: 'Structural Image Classification',
@@ -29,6 +30,7 @@ const Posts = () => {
         secondary goal of computational efficiency`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1O1APkihqOSfJ-7F1BO67iirUaxB34h9S',
         link: 'https://github.com/SeanHershey/StructuralDamage',
+        id: 'structural',
         },
         {
         title: 'Warehouse',
@@ -45,6 +47,7 @@ const Posts = () => {
         that keeps the sites up always accessible and Render hosts the API server and the website.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/12Dvw5raRHd7yv9jdHE53JvvrDycgazrS',
         link: 'https://github.com/SeanHershey/Warehouse',
+        id: 'warehouse',
         },
         {
         title: 'Dynamic Portfolio',
@@ -54,6 +57,7 @@ const Posts = () => {
         utilizing JavaScript, CSS, and HTML.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1RZo6FOSHoyd9IKz9Z74N9zUSCBt24bi4',
         link: 'https://github.com/SeanHershey/Portfolio',
+        id: 'portfolio',
         },
         {
         title: 'Glowbe',
@@ -63,6 +67,7 @@ const Posts = () => {
         I created this to get a better understanding of WebGL in react and shaders.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1_LJV6mu6bQnNFVQmKN8mBCZwKk3TWlHx',
         link: 'https://github.com/SeanHershey/Glowbe',
+        id: 'glowbe',
         },
         {
         title: 'Stable Diffusion',
@@ -80,6 +85,7 @@ const Posts = () => {
         known for their unique visual appeal. Below are some screenshots for reference.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/14VDgrlUTiqSNz45oAC3RGDMi4wVhfLn_',
         link: 'https://github.com/jlrJames/Jitterbug',
+        id: 'jitterbug',
         },
         {
         title: 'Printer Toners',
@@ -113,6 +119,7 @@ const Posts = () => {
         again be brought to balance by clicking next to a fairy which transforms it into a cat who hunts
         mice.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1Z9mRB-U-QZtKO-XiOlKbLzhMlVbB-fQI',
+        id: 'cat',
         },
         {
         title: 'Spider World',
@@ -315,6 +322,7 @@ const Posts = () => {
         anonymous functions, an environment, mutation, and recursion. Shown
         is a game I wrote in OAZO and compiled with Racket as the host language.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1n9UUQmAQ6mBzGP4txyn23VtyHUxLzLUb',
+        id:'oazo',
         },
         {
         title: 'Everest Data Exploration',
@@ -330,6 +338,7 @@ const Posts = () => {
         I used to create visual explorations of math concepts and 
         even video games in.`,
         imgUrl: 'https://lh3.googleusercontent.com/d/1YXAspZrXWrGpI4GJ1D4y85g-wPisT5mo',
+        id: 'set',
         },
     ];
     

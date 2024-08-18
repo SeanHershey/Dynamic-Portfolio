@@ -39,9 +39,15 @@
 }
 
 @media screen and (max-width: 960px) {
+    .post-container {
+        padding: 1%;
+        margin: 0 5%;
+    }
+
     .post-content {
         flex-direction: column;
     }
+    
 
     .post-content p {
         margin: 2% 0;
@@ -56,7 +62,32 @@
     .image {
         object-fit: cover;
         display: block;
-        margin: 0 -8%;
-        scale: 0.8;
+        margin: 0 auto;
+        scale: 1;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .image {
+        margin: 0 auto;
+        scale: 0.7;
+    }
+
+    .post-content p {
+        font-size: 14px;
+    }
+
+    .post-content a {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .image {
+        display: none;
+    }
+
+    .post-content a {
+        display: none;
     }
 }

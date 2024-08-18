@@ -1,6 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect} from 'react';
 import {View, Image, StyleSheet} from 'react-native';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import {Button} from './Button';
 import './Navbar.css';
 

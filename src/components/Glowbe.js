@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Glowbe.css';
 import React from 'react';
 
@@ -115,8 +115,8 @@ export const Glowbe = () => {
 
     if (Math.sqrt(Math.pow(x - Math.min(window.innerHeight, window.innerWidth)/2, 2) +
                     Math.pow(y - Math.min(window.innerHeight, window.innerWidth)/2, 2)) > linkSize) return <canvas id='area' ref={canvasRef} />;
-    else return <Link to='/projects#Glowbe'>
+    else return <HashLink to='/projects#glowbe'>
                     <p className='label'>WebGL</p>
                     <canvas id='area' ref={canvasRef} />
-                </Link>
+                </HashLink>
 };
