@@ -43,7 +43,7 @@ function HomeSection() {
         </div>
         <div className='showcase-femr'> 
             <HashLink to='/projects#femr'>
-                    <img className='showcase-img' src='https://i.ibb.co/RPWCCw3/femr.gif' alt='femr'></img>
+                    <img className='showcase-img' src='https://lh3.googleusercontent.com/d/1XI23YhOeSL7YBY4MnE8HRjFJXWEgs9YM' alt='femr'></img>
             </HashLink>
         </div>
         <iframe title='Jitterbug Game' className='itch-frame' src='https://itch.io/embed/2769811?dark=true'>

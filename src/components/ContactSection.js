@@ -21,7 +21,9 @@ function ContactSection() {
         <a href='https://www.linkedin.com/in/SeanHershey/'>
             <p>linkedin.com/in/SeanHershey</p>
         </a>
-        <Footer/>
+        <div className='footer-wrap'>
+            <Footer/>
+        </div>
     </div>
     );
 }

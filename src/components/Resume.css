@@ -40,3 +40,28 @@ h5 {
     font-size: 16px;
     color: white;
 }
+
+.short-p {
+    display: none;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .long-p {
+        display: none;
+    }
+    .short-p {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .resume-container { 
+        padding: 100px 10vw;
+    }
+
+    hr {
+        width: 80vw;
+        margin: 10px 0px;
+    }
+}

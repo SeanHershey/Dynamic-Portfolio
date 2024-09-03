@@ -5,7 +5,10 @@ function Resume() {
     return (
     <div className='resume-container'>
         <h1>SEAN HERSHEY</h1>
-        <p>sean.p.hershey@gmail.com | github.com/seanhershey | linkedin.com/in/seanhershey</p>
+        <p className='long-p'>sean.p.hershey@gmail.com | github.com/seanhershey | linkedin.com/in/seanhershey</p>
+        <p className='short-p'>sean.p.hershey@gmail.com</p>
+        <p className='short-p'>github.com/seanhershey</p>
+        <p className='short-p'>linkedin.com/in/seanhershey</p>
         <hr/>
 
         <h3>EDUCATION</h3>
