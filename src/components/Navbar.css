@@ -41,7 +41,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 50vw;
     justify-content: end;
     margin-right: 2rem;
 }
@@ -68,11 +68,11 @@
     color: #ffffff;
 }
 
-.nav-links-mobile {
+.menu-icon {
     display: none;
 }
 
-.menu-icon {
+.nav-contact {
     display: none;
 }
 
@@ -126,6 +126,10 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+    }
+
+    .nav-contact {
+        display: block;
     }
 
     .fa-times {

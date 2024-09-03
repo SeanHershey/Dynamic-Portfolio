@@ -43,8 +43,6 @@ export const Glowbe = () => {
         const ratio = Math.abs(distance / canvas.width) * 1.2;
         const scale = Math.min(Math.pow(ratio, 2) * (3 - (2 * ratio)) + 0.2, 0.8)
 
-        console.log(scale)
-
         const number = 10000 * scale;
 
         for (let i = 0; i < number; i++) {
