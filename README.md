@@ -1,4 +1,4 @@
-# [Personal Portfolio](https://seanhersheysoftware.com/)
+# Personal Portfolio
 
 [seanhersheysoftware.com](https://seanhersheysoftware.com/)
 
