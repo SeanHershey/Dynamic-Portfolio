@@ -11,7 +11,7 @@ function DemosSection() {
         try {
             e.preventDefault();
             setResponse("Loading...");
-            const response = await fetch('/generate', {
+            const response = await fetch('/api/generate', {
                 method: 'POST',
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ prompt })
