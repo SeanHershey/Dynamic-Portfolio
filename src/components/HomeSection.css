@@ -1,53 +1,79 @@
 .home-container {
     background-color: #101010;
+    background: transparent;
     text-align: center;
-    margin-top: 10vh;
     height: 100%;
 }
 
-.home-container > h1 {
-    color: #ffffff;
-    font-size: 80px;
-    margin-top: 0px;
-}
-
-.home-container > h2 {
-    color: #ffffff;
-    font-size: 36px;
-    margin-top: 10px;
-}
-
-.home-bullets {
-    text-align: center;
-    width: 500px; 
-    margin: 0 auto;
-    margin-top: 5vh;
-}
-
-.home-bullets > p {
-    color: #ffffff;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-left: 10px;
-    text-align: left;
-}
-
-.home-btns {
-    margin-top: 32px;
-}
-
-.home-btns .btn {
-    margin: 6px;
-}
-
 .canvas-container {
+    position: absolute;
+    transform: translate(0, -100%);
     height: 100Vmin;
+    left: 50%;
 }
 
 .canvas {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 50%);
+}
+
+.canvas-fade {
+    position: absolute;
+    z-index: 1;
+    pointer-events: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(#00000000,#10101000,#101010ea, #101010);
+}
+
+.home-container > h1 {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: 100;
+    margin-top: 400px;
+}
+
+.home-container > h2 {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+    color: #ffffff;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 100;
+}
+
+.home-btns {
+    position: relative;
+    z-index: 2;
+    margin-top: 32px;
+}
+
+.home-btns .btn {
+    position: relative;
+    z-index: 2;
+    margin: 6px;
+}
+
+.home-bullets {
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+    text-align: center;
+    width: 500px; 
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+
+.home-bullets > p {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: left;
 }
 
 .showcase-img {
@@ -79,23 +105,18 @@
 
 @media screen and (max-width: 800px) {
     .home-container > h1 {
-        font-size: 40px;
-        margin-top: 50px;
+        font-size: 3rem;
     }
 
     .home-container > h2 {
-        font-size: 20px;
-    }
-
-    .home-container > p {
-        font-size: 20px;
+        font-size: 1.5rem;
     }
 
     .home-bullets {
-        width: 370px;
+        width: max-content;
     }
     
     .home-bullets > p {
-        font-size: 12px;
+        font-size: 0.75rem;
     }
 }

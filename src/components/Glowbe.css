@@ -17,8 +17,30 @@ canvas {
 .label {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 26Vmin);
-    font-size: 80px;
-    color: #0e9d55;
+    transform: translate(-50%, 30Vmin);
+    font-size: 3rem;
+    font-weight: 100;
+    color: #0e9d568d;
     animation: fadeIn 1s;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.label-none {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 30Vmin);
+    font-size: 3rem;
+    font-weight: 100;
+    color: #0e9d568d;
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
 }

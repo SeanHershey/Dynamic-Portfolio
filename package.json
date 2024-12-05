@@ -2,6 +2,7 @@
   "name": "dynamic-portfolio",
   "version": "0.1.0",
   "private": true,
+  "proxy":"https://portfoliobackend-4erp.onrender.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

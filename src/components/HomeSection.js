@@ -14,6 +14,15 @@ function HomeSection() {
 
     return (
     <div className='home-container'>
+        <div className='canvas-container'>
+            <div className='canvas'>
+                <Glowbe/>
+            </div>  
+        </div>
+        <div className='canvas-fade'>
+                    <canvas></canvas>
+        </div>
+
         <h1>Sean Hershey</h1>
         <h2>Software Developer</h2>
         <div className='home-btns'>
@@ -36,11 +45,7 @@ function HomeSection() {
             <p> 🌺 I'm from Hawaii and live in California</p>
             <p> 📧 Contact me at sean.p.hershey@gmail.com</p>
         </div>
-        <div className='canvas-container'>
-            <div className='canvas'>
-                <Glowbe/>
-            </div>
-        </div>
+        
         <div className='showcase-femr'> 
             <HashLink to='/projects#femr'>
                     <img className='showcase-img' src='https://lh3.googleusercontent.com/d/1XI23YhOeSL7YBY4MnE8HRjFJXWEgs9YM' alt='femr'></img>

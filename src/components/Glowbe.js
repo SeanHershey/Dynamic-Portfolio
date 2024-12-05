@@ -23,7 +23,7 @@ export const Glowbe = () => {
         }
         window.addEventListener('mousemove', update);
 
-        const timer = setTimeout(() => ticking && setCount(count+1), 50)
+        const timer = setTimeout(() => ticking && setCount(count+1), 100)
 
         const canvas = canvasRef.current;
         if (canvas === null) return; 
@@ -65,7 +65,7 @@ export const Glowbe = () => {
         attribute vec3 coordinates;
         void main(void) {
             gl_Position = vec4(coordinates, 1.0);
-            gl_PointSize = `+ (scale * 2 + 1) +`;
+            gl_PointSize = `+ (scale + 1) +`;
         }`;
         var vertShader = gl.createShader(gl.VERTEX_SHADER);
         if (vertShader == null) return;
@@ -109,12 +109,15 @@ export const Glowbe = () => {
 
     }, [count, ticking, setX, setY, canvasRef, x, y]);
 
-    const linkSize = 30;
+    const linkSize = 20;
 
     if (Math.sqrt(Math.pow(x - Math.min(window.innerHeight, window.innerWidth)/2, 2) +
-                    Math.pow(y - Math.min(window.innerHeight, window.innerWidth)/2, 2)) > linkSize) return <canvas id='area' ref={canvasRef} />;
-    else return <HashLink to='/projects#glowbe'>
-                    <p className='label'>WebGL</p>
+                  Math.pow(y - Math.min(window.innerHeight, window.innerWidth)/2, 2)) > linkSize) {
+        return <canvas id='area' ref={canvasRef}/>;
+    } else {
+        return  <HashLink to='/projects#glowbe'>
+                    <p className='label'>WebGLowbe</p>
                     <canvas id='area' ref={canvasRef} />
                 </HashLink>
+    }
 };
